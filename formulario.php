@@ -32,7 +32,8 @@ if ($_POST){
 
 // Conexión con PDO
 
-$servername = "localhost:4324";
+//$servername = "localhost:4324"; // Mi host es el 4324 por conflictos de mi máquina. Si lo tenemos configurado en otro host, cambiarlo por el bueno.
+$servername = "localhost";
 $username = "root";
 $password = "";
 $dbname = "cursosql";
